@@ -46,8 +46,8 @@ const HeroSection = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-zinc-400 max-w-3xl mx-auto">
-              Покупай Robux и коды из игрушек Roblox быстро и безопасно. Моментальная выдача после
-              оплаты — прокачивай своего персонажа уже сейчас.
+              Покупай Robux и коды из игрушек Roblox быстро и безопасно. Среднее время выдачи —
+              3 дня после оплаты.
             </p>
             <div className="relative inline-block">
               <Button
