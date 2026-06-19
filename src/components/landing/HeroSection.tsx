@@ -22,7 +22,7 @@ const HeroSection = () => {
   }, []);
 
   const stats = [
-    { icon: <ShoppingCart className="w-6 h-6" />, label: "Выполнено заказов", value: "15 000+" },
+    { icon: <ShoppingCart className="w-6 h-6" />, label: "Выполнено заказов", value: "0" },
     { icon: <Gamepad2 className="w-6 h-6" />, label: "Поддерживаем игр", value: "50+" },
     { icon: <Zap className="w-6 h-6" />, label: "Среднее время выдачи", value: "3 дня" },
     { icon: <ShieldCheck className="w-6 h-6" />, label: "Безопасная сделка через гарантов", value: "100%" },
