@@ -25,7 +25,7 @@ const HeroSection = () => {
     { icon: <ShoppingCart className="w-6 h-6" />, label: "Выполнено заказов", value: "15 000+" },
     { icon: <Gamepad2 className="w-6 h-6" />, label: "Поддерживаем игр", value: "50+" },
     { icon: <Zap className="w-6 h-6" />, label: "Среднее время выдачи", value: "3 дня" },
-    { icon: <ShieldCheck className="w-6 h-6" />, label: "Безопасных сделок", value: "100%" },
+    { icon: <ShieldCheck className="w-6 h-6" />, label: "Безопасная сделка через гарантов", value: "100%" },
   ];
 
   return (
