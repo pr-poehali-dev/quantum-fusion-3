@@ -1,11 +1,11 @@
 import { useRef, useEffect, useState } from "react";
-import { Headphones, Music, Mic2, Award } from "lucide-react";
+import { ShieldCheck, Gamepad2, Clock, Users } from "lucide-react";
 
 const achievements = [
-  { icon: <Headphones className="w-6 h-6" />, label: "Лет опыта", value: "10+" },
-  { icon: <Music className="w-6 h-6" />, label: "Созданных треков", value: "500+" },
-  { icon: <Mic2 className="w-6 h-6" />, label: "Коллабораций с артистами", value: "100+" },
-  { icon: <Award className="w-6 h-6" />, label: "Наград", value: "15+" },
+  { icon: <Clock className="w-6 h-6" />, label: "Лет на рынке", value: "5+" },
+  { icon: <Gamepad2 className="w-6 h-6" />, label: "Игр в каталоге", value: "50+" },
+  { icon: <Users className="w-6 h-6" />, label: "Довольных покупателей", value: "15 000+" },
+  { icon: <ShieldCheck className="w-6 h-6" />, label: "Гарантия безопасности", value: "100%" },
 ];
 
 const AboutSection = () => {
@@ -57,23 +57,22 @@ const AboutSection = () => {
             <div className="w-full aspect-square bg-gradient-to-br from-zinc-800 to-zinc-900 rounded-3xl relative z-10 flex items-center justify-center">
               <div className="text-center p-8">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center">
-                  <Music className="w-16 h-16 text-white" />
+                  <Gamepad2 className="w-16 h-16 text-white" />
                 </div>
-                <p className="text-zinc-400 text-lg">Фото продюсера</p>
+                <p className="text-zinc-400 text-lg">GameVault Store</p>
               </div>
             </div>
           </div>
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">О SoundForge</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">О GameVault</h2>
             <p className="text-lg mb-6 text-zinc-300">
-              SoundForge — это не просто битмейкер, это звуковой архитектор, создающий саундскейпы
-              будущего. С десятилетним опытом и чутким слухом на инновации, SoundForge раздвигает
-              границы возможного в музыкальном продакшене.
+              GameVault — проверенный магазин игровой валюты и кодов активации. Мы работаем с 2019
+              года и обслужили более 15 000 довольных покупателей. Все коды лицензионные, доставка
+              мгновенная — сразу после оплаты на почту.
             </p>
             <p className="text-lg mb-8 text-zinc-300">
-              От хитов в чартах до андеграундных гимнов — универсальный стиль и внимание к деталям
-              гарантируют, что каждый бит — это не просто трек, а путешествие, ждущее правильного
-              артиста.
+              В каталоге — топовые игры: Roblox, Minecraft, Steam, PlayStation, Xbox и десятки
+              других платформ. Поддержка работает 24/7 — поможем с любым вопросом.
             </p>
             <div className="grid grid-cols-2 gap-6">
               {achievements.map((achievement, index) => (

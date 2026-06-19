@@ -64,7 +64,7 @@ const ContactSection = () => {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
-        <h2 className="text-5xl font-bold mb-10 text-center text-zinc-200">Связаться со мной</h2>
+        <h2 className="text-5xl font-bold mb-10 text-center text-zinc-200">Сделать заказ</h2>
         <div
           className={`max-w-md mx-auto bg-black/50 backdrop-blur-lg rounded-lg p-8 shadow-2xl border border-white/10 transition-all duration-500 delay-200 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
@@ -75,7 +75,7 @@ const ContactSection = () => {
               <Input
                 type="text"
                 name="name"
-                placeholder="Ваше имя"
+                placeholder="Ваш никнейм / имя"
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -96,7 +96,7 @@ const ContactSection = () => {
             <div className="mb-4">
               <Textarea
                 name="message"
-                placeholder="Ваше сообщение"
+                placeholder="Какую игру и пакет хотите? Укажите детали заказа"
                 value={formData.message}
                 onChange={handleChange}
                 required
@@ -122,7 +122,7 @@ const ContactSection = () => {
                 ) : (
                   <>
                     <Send className="mr-2" size={18} />
-                    Отправить сообщение
+                    Оформить заказ
                   </>
                 )}
               </span>
