@@ -42,12 +42,12 @@ const HeroSection = () => {
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight relative">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-zinc-500">
-                Игровая валюта и коды
+                Robux & Toy Codes
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-zinc-400 max-w-3xl mx-auto">
-              Пополняй любимые игры и покупай игровые коды быстро, безопасно и по выгодной цене.
-              Моментальная выдача после оплаты — играй без ограничений уже сейчас.
+              Покупай Robux и коды из игрушек Roblox быстро и безопасно. Моментальная выдача после
+              оплаты — прокачивай своего персонажа уже сейчас.
             </p>
             <div className="relative inline-block">
               <Button
